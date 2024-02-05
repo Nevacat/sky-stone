@@ -7,14 +7,14 @@ interface TitleProps {
 
 const Title = ({text,reverse}:TitleProps) => {
   return (
-    <div className={`
+    <span className={`
       ${reverse? "text-white border-t-2 border-white":"text-black border-t-2 border-black"}
       mb-10
       font-bold
-      text-lg
+      text-xl
     `}>
       {text}
-    </div>
+    </span>
   )
 }
 

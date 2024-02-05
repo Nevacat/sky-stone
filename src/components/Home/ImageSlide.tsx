@@ -9,10 +9,10 @@ const ImageSlide = () => {
         <div className="absolute z-10 w-full h-full bg-black/55 flex justify-center items-center">
           <div className="flex flex-col justify-center items-center w-[1100px] h-[300px] text-center  border-x-[2.5px] border-white ">
             <Title text="ABOUT US" reverse />
-            <h1 className="text-5xl font-bold text-white leading-relaxed mb-10">베테랑 노하우를 가진 기술과
+            <h2 className="text-5xl font-bold text-white leading-relaxed mb-10">베테랑 노하우를 가진 기술과
               <br/>
               섬세한 손길로 완벽한 결과물을 만듭니다.
-            </h1>
+            </h2>
             <p className="text-lg text-white">정성이 담긴 결과물은 시공사진을 참고해주세요.</p>
           </div>
         </div>
