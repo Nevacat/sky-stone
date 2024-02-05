@@ -31,7 +31,7 @@ const NavItem = () => {
       {
         links.map((link, index) => {
           return(
-            <li key={index} className={`text-center text-[18px] font-medium cursor-pointer
+            <li key={index} className={`text-center text-lg font-medium cursor-pointer
               hover:text-[#1bc3e0] transition duration-300 ease-in-out
               ${pathname === link.href ? 'border-b-2 border-[#1bc3e0]' : ''}
             `}>
